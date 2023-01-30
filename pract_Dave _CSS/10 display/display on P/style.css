@@ -1,0 +1,47 @@
+body{
+    font-size: 2rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* main{
+    background: aqua;
+    width:50%;
+} */
+
+p{
+    background: lightgrey;
+    /* margin: 100px 50px; */
+    /* padding: 50%; */
+
+}
+
+.opposite{
+    background: #333;
+    color: whitesmoke;
+    /* margin-top:100px; */
+    /*no changes becasue we cannot give mtop or 
+    mbottom to inline level element*/
+    /* height: 200px; */
+    /* again same no changes,height cannot be given but */
+    padding: 1rem;
+    /* padding is applied quite differently */
+    padding:3rem;
+    /* it overlaps the other elements, so we don't want that so now we shall use */
+    display: block;
+    /* will convert the particular class to block level elementa and styles are spread
+    across the block */
+    display:inline;
+    /* will covert the to inline level element and will apply the style accordingly*/
+    display: inline-block;
+    /* as name says it will be a block level element which 
+    is inside another block and doesnt overlap.................NOW*/
+    margin-top: 100px;
+    /* now the margin top or bottom effect will take place the whole line 
+    will shift down creating a margin on top */
+    padding: 4rem;
+    /* padding will also get affected */
+    height :200px;
+    /* height also gets appeared which we couldnt apply earlier */
+    /* so display : inline-block allows us to apply some styles that we 
+    wouldnt be able to do normally */
+}

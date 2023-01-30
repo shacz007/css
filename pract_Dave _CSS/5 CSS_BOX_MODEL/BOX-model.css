@@ -1,0 +1,35 @@
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 800px;
+    min-height: fit-content;
+    margin: 1rem auto;
+    border :10px double blue;/*shorthand*/
+    /* border-top: 20px solid red; */
+    /* border-bottom: 15px dotted green; */
+    font-size : 1.5rem;
+    padding : 1.5em ;
+    /* margin : 1.5em ; */
+    /* margin-top: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+    margin-left: 1.5em;*/
+    /* outline: 2px solid red; */
+    outline: 5px solid red;
+    outline-offset: 5px ;
+}
+.circle{
+    width : 100px;
+    height : 100px;
+    background-color: greenyellow;
+    margin: 1.5em auto;
+    border-radius: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}

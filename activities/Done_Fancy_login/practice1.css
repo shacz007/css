@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+*,html,body{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(to right,rgb(83, 146, 185),rgb(202, 63, 63));
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display:flex;   
+}
+.container{
+    background-color: rgb(255, 255, 255);
+    height: 50%;
+    width: 40%;
+}
+
