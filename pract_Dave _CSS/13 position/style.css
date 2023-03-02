@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outercontainer{
+    border: 3px dashed black;
+    width: 75vw;
+    height:85vh;
+    margin: 40px auto;
+    position: relative;/*sets relative to the outer container*/
+}
+
+.innercontainer{
+    border: 2px solid blue;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+    position: relative;/*overrides and sets position relative to inner container*/
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    color: white;
+    padding: 1rem;
+}
+
+.absolute{
+    background: blue;
+    position: static;
+    position: absolute;/*doesnt change anything much without values*/
+    /* absoolute positioning needs a ancesrtral element */
+    left: 50px;
+    top: 100px;
+}
